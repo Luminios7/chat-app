@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: hsl(270, 20%, 96%);
+}
+.container {
+    font-family: 'Rubik';
+    width: 375px;
+    height: 100%;
+    
+  
+
+    
+    
+}
+.phone {
+    border: 12px solid #fff ;
+    width: 300px;
+    height: 575px;
+    margin-left: 150px;
+z-index: 2;
+    border-radius: 40px 40px 40px 40px;
+    position: relative;
+    top: 100px;
+
+}
+.gradient-design {
+    background:linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%)100%);
+    height: 700px;
+    width: 600px;
+    border-radius: 0 0 400px 400px;
+   margin: -100px 0px 0px -300px;
+    position:absolute;
+    z-index: 1;
+}
+header {
+    width: 99.5%;
+    height: 80px;
+    margin-left: 0px;
+    z-index: 2;
+border-radius:30px 30px 10px 10px ;
+background: linear-gradient( to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+}
+
+.name {
+padding-top: 30px; 
+padding-left:75px;
+color: hsl(280, 23%, 95%);
+font-size: 15px;
+
+}
+.name p{
+    font-size: 14px;
+    font-weight: 100;
+ padding-top: 3px;
+    color:hsl(300, 34%, 70%);
+font-size: 10px;
+}
+.white {
+    
+    width: 150px;
+    height: 30px;
+    margin: 0px 0px 0px 65px;
+    position: absolute;
+    bottom: 530px;
+    background-color:#fff;
+    border-radius: 20px;
+}
+.pp {
+    width: 25px;
+   top: 33px;
+    border-radius: 30px;
+    margin-left: 40px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+.menu {
+    position: relative;
+    color:#fff;
+    left: 250px;
+    top: -30px;
+    line-height: 5px;
+    cursor: context-menu;
+} 
+main {
+    background-color:hsl(270, 20%, 96%);
+    height:87%;
+    border-radius: 0px 0px 30px 30px;
+    margin: -5px 0px 0px -1px;
+    font-size: 11px;
+    position: absolute;
+width: 101%;
+z-index: -1;
+}
+.left {
+    border-radius: 10px;
+    padding: 6px 20px 10px 8px;
+    margin: 20px 150px 0px 10px;
+    width: 160px;
+    color:hsl(276, 55%, 52%) ;
+    background-color:hsl(275, 44%, 92%) ;
+}
+
+.right {
+    color:hsl(271, 15%, 43%);
+    margin: 70px 10px 0px 120px;
+    padding: 8px 5px 5px 8px;
+    border-radius:10px ;
+    background-color:hsl(0, 0%, 100%) ;
+}
+.dog {
+    width: 16%;
+    margin: 15px 10px 0px 0px ;
+    float: right;
+    border-radius: 15px;
+    
+}
+.chat {
+    margin-top: 10px;
+}
+.talk {
+    margin-top: 10px;
+    text-align: right;
+    margin-left: 170px;
+    padding-right: 8px;
+}
+.price {
+    border-radius: 10px 10px 10px 0px;
+margin:10px 0px 0px 10px; 
+padding: 7px 0px 0px 8px;
+width: 180px;
+height: 35px;
+background:linear-gradient(to left,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+color: #dfdcdc;
+}
+#price {
+    position: relative;
+    top: 2px;
+    margin-right: 5px
+   
+}
+#big {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 40px;
+}
+.button {
+
+width: 250px;
+height: 35px;
+margin: 15px 0px 0px 10px;
+padding: 10px 0px 0px 15px;
+border-radius: 20px;
+background-color: #fff;
+color:hsl(240, 1%, 72%) ;
+}
+#cir {
+    border:1px solid;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: -20px 0px 0px 200px;
+    background-color: hsl(271, 36%, 24%);
+}
+.last {
+    margin: 120px -100px 0px 70px;
+    text-align: center;
+    font-size: 25px;
+}
+.last h1 {
+    padding: 0px 0px 20px 0px;
+    color:hsl(271, 36%, 24%) ;
+    margin-left: 0px;
+}
+.last p {
+    margin: 0px 0px 20px 0px;
+    color:hsl(270, 7%, 64%) ;
+    padding-left: 0px;
+}
+
+@media screen and (min-width:1200px){
+    .gradient-design {
+        margin: 0px 0px 0px -100px;
+        height: 1100px; 
+    }
+.phone {
+    margin: 0px 0px 0px 420px;
+ position: relative;
+ top: 220px;
+}
+.last {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+.last p {
+    margin: 0px -140px 0px 120px;
+    text-align: left;
+}
+
+}
